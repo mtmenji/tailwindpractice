@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       screens: {
         'widescreen': {'raw': '(min-aspect-ration: 3/2)'},
-        'tallscreen': {'raw': '(min-aspect-ration: 13/20)'},
+        'tallscreen': {'raw': '(max-aspect-ration: 13/20)'},
       },
       keyframes: {
         'open-menu': {
